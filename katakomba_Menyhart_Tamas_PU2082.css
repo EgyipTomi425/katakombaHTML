@@ -1,0 +1,334 @@
+body
+{
+    background-image: url("katakomba.jpg");
+}
+
+table.layout
+{
+    margin: 1em auto;
+}
+
+table.layout tbody tr td
+{
+    height: 1em auto;
+}
+
+table.layout tbody tr td:first-child
+{
+    width: 28%;
+}
+
+table.layout tbody tr td:nth-child(2)
+{
+    width: fit-content;
+}
+
+table.layout tbody tr td:last-child
+{
+    display: flex;
+    margin-left: 3em;
+}
+
+table.katakomba
+{
+    border-collapse: collapse;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 0 0 0.5em 0.5em gold;
+    margin-top: -6em;
+    margin-left: 3em;
+}
+
+table.katakomba thead tr th, table.katakomba tbody tr th, table.katakomba tbody tr td, table.katakomba tfoot tr th
+{
+    min-height: 1.225em !important;
+    min-width: 1.225em !important;
+}
+
+table.katakomba tbody tr:first-of-type th:first-of-type::before, table.katakomba tbody tr:last-of-type th:first-of-type::before
+{
+    content: "X";
+    color: transparent;
+}
+
+table.katakomba tbody tr td
+{
+    border: thin solid #1F2523;
+}
+
+table.katakomba thead tr th, table.katakomba tfoot tr th, table.katakomba tbody tr th
+{
+    font-size: xx-large;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+table.katakomba tbody tr td
+{
+    background-color: lightgray;
+}
+
+table.katakomba tbody tr:last-child td, table.katakomba tbody tr:first-child td, table.katakomba tbody tr td:first-of-type, table.katakomba tbody tr td:last-of-type
+{
+    background-color: #49250B;
+}
+
+table.katakomba tbody tr td.bejarat
+{
+    background-color: wheat;
+}
+
+table.katakomba tbody tr td.fal
+{
+    background-color: #49250B;
+}
+
+table tbody tr td.zart-bejarat::before
+{
+    font-size: x-large;
+    content: "\1F510";
+}
+
+table tbody tr td.zart-bejarat
+{
+    background-color: wheat;
+}
+
+
+table tbody tr td.jutalom
+{
+    background-color: green;
+}
+
+table tbody tr td.gyemant::before
+{
+    font-size: x-large;
+    content: "\1F48E";
+}
+
+table tbody tr td.lada::before
+{
+    font-size: x-large;
+    content: "\1F9F0";
+}
+
+table tbody tr td.tor::before
+{
+    font-size: x-large;
+    content: "\1F5E1";
+}
+
+table tbody tr td.kulcs::before
+{
+    font-size: x-large;
+    content: "\1F511";
+}
+
+table tbody tr td.pisztoly::before
+{
+    font-size: x-large;
+    content: "\1F52B";
+}
+
+table tbody tr td.fagyi::before
+{
+    font-size: x-large;
+    content: "\1F366";
+}
+
+table tbody tr td.hamburger::before
+{
+    font-size: x-large;
+    content: "\1F354";
+}
+
+table tbody tr td.kulcs2::before
+{
+    font-size: x-large;
+    content: "\1F5DD";
+}
+
+table tbody tr td.duplakard::before
+{
+    font-size: x-large;
+    content: "\2694";
+}
+
+table tbody tr td.EgyipTomi::before
+{
+    font-size: x-large;
+    content: "\1F9D9";
+}
+
+table tbody tr td.nagy.krokodil::before
+{
+    font-size: x-large;
+    content: "\1F40A";
+}
+
+table.katakomba tbody tr td.kozepes.krokodil::before
+{
+    font-size: large;
+    content: "\1F40A";
+}
+
+table.katakomba tbody tr td.kicsi.krokodil::before
+{
+    content: "\1F40A";
+}
+
+table.katakomba tbody tr td.kicsi.alien::before
+{
+    content: "\1F47D";
+}
+
+table.katakomba tbody tr td.kozepes.alien::before
+{
+    font-size: large;
+    content: "\1F47D";
+}
+
+table tbody tr td.nagy.alien::before
+{
+    font-size: x-large;
+    content: "\1F47D";
+}
+
+table tbody tr td.nagy.skorpio::before
+{
+    font-size: x-large;
+    content: "\1F982";
+}
+
+table.katakomba tbody tr td.kozepes.skorpio::before
+{
+    font-size: large;
+    content: "\1F982";
+}
+
+table.katakomba tbody tr td.kicsi.skorpio::before
+{
+    content: "\1F982";
+}
+
+table tbody tr td.nagy.szellem::before
+{
+    font-size: x-large;
+    content: "\1F47B";
+}
+
+table.katakomba tbody tr td.kozepes.szellem::before
+{
+    font-size: large;
+    content: "\1F47B";
+}
+
+table.katakomba tbody tr td.kicsi.szellem::before
+{
+    content: "\1F47B";
+}
+
+table tbody tr td.lava
+{
+    background-color: red;
+}
+
+table tbody tr td.viz
+{
+    background-color: aqua;
+}
+
+table tbody tr td.futohomok
+{
+    background-color: lightsalmon;
+}
+
+table.jelmagyarazat
+{
+    font-family: sans-serif;
+    color: whitesmoke;
+    box-shadow: 0 0 0.5em 0.5em aqua;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    width: 100%;
+}
+
+table.jelmagyarazat thead tr:first-child th:nth-child(3)
+{
+    color: aqua;
+    border-bottom: medium solid aqua;
+    border-radius: 0.2em;
+    font-size: x-large;
+    font-weight: bold;
+    height: 2em;
+}
+
+table.jelmagyarazat thead tr:last-child th
+{
+    color: aquamarine;
+    margin-bottom: 2em;
+}
+
+table.jelmagyarazat tbody tr:nth-child(odd) td
+{
+    color: whitesmoke;
+}
+
+table.jelmagyarazat tbody tr:nth-child(even) td
+{
+    color: darkgray
+}
+
+table tbody tr td.kopadlo
+{
+    background-color: darkgray;
+}
+
+table.jelmagyarazat tbody tr td.nagy:first-child
+{
+    background-color: whitesmoke;
+}
+
+table.jelmagyarazat tbody tr td.szellem:first-child
+{
+    background-color: black;
+}
+
+table tbody tr td:nth-child(2)
+{
+    font-size: x-large;
+}
+
+table.hero
+{
+    font-family: sans-serif;
+    color: whitesmoke;
+    box-shadow: 0 0 0.5em 0.5em aqua;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    width: 100%;
+    font-size: large;
+}
+
+table.hero tbody tr:nth-child(odd) td, table.hero tbody tr:nth-child(odd) th
+{
+    color: whitesmoke;
+}
+
+table.hero tbody tr:nth-child(even) td, table.hero tbody tr:nth-child(even) th
+{
+    color: darkgray
+}
+
+table.hero thead tr th
+{
+    color: aqua;
+    font-size: x-large;
+    font-weight: bold;
+    border-bottom: medium solid aquamarine;
+    border-radius: 0.2em;
+}
